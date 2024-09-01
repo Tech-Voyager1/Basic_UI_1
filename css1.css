@@ -1,0 +1,17 @@
+.root{
+    --my_yellow: #ffcc03;
+    --my-orange: #ee4f22;
+}
+
+
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.header{
+    background-color: var(--my_yellow)
+}
