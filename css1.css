@@ -1,5 +1,5 @@
-.root{
-    --my_yellow: #ffcc03;
+:root{
+    --my-yellow: #ffcc03;
     --my-orange: #ee4f22;
 }
 
@@ -7,11 +7,41 @@
 *{
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-.header{
-    background-color: var(--my_yellow)
+body{
+    background-image: url(./asssets/bg-img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+/* <!-- nav bar --> */
+.header1 {
+    padding: 30px ;
+    background-color : var(--my-yellow);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    bg
+}
+
+.header1 ul{
+    display: flex;
+}
+
+.header1 ul li{
+    margin: 0 40px;
+    color: var(--my-orange);
+}
+
+.header1 ul li a.active{
+    color: rgb(255, 255, 255);
+}
+
+
+
