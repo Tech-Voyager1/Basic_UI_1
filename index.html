@@ -1,29 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic portfoli</title>
+    <title>Basic ui1</title>
     <link rel="stylesheet" href="./css1.css">
 </head>
+
 <body>
-    <header>
-        <div class="header1">
-            
-        <h1 style="letter-spacing: 5px;"><a href="#">JASMINE</a></h1>
-            <ul>
-                <li>
-                    <a href="" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="" class="active">About</a>
-                </li>
-                <li>
-                    <a href="" class="active">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-       
+    <div class="main">
+        <header>
+            <div class="head1" id="head1">
+                <div class="header1">
+                    <h1 style="letter-spacing: 3px;"><a href="#">JASMINE</a></h1>
+                    <ul>
+                        <li>
+                            <a href="#head1" class="active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="active">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="active">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="home">
+
+                    <span class="text">
+                        <h1> <span class="h">H</span>ei, </h1>
+                        <h2>hi</h2>
+                    </span>
+                    <div class="p">
+                        <p>
+                            This is a simple webpage , from tech voyager <br> a basic
+                            ui , conatins a basic layout of Home , About and Contact,
+                            runs in static.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- about-section -->
+        <section class="about" id="about">
+            <div class="about-main-div">
+                <div class="about-text">
+                    <h1>ABOUT</h1>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="./asssets/profile.jpg" alt="">
+                <p>
+                    About : This webpage is developed by Tech Voyager <br>
+                    to develope the css and html practice . <br>
+                    This page contains the basic attributes of css and elements of cee <br>
+                    no more...
+                </p>
+            </div>
+        </section>
+
+        <!-- contact-section -->
+        <section class="con" id="contact">
+            <div class="con-main-div">
+                <div class="con-text" class="about-text">
+                    <h1>CONTACT</h1>
+                </div>
+            </div>
+            <div class="con-img">
+                <img src="./asssets/bg-img.jpg" alt="" width="500px">
+                <div class="con-img-div">
+                    <h4><a href="mailto:adimp36@gmail.com" target="_blank">gmail</a></h4>
+                    <h4><a href="https://www.instagram.com/adi_the_x?igsh=YTV4Y3VHcmh3ZHk4"
+                            target="_blank">instagram</a></h4>
+                    <h4><a href="https://www.instagram.com/adi_the_x?igsh=YTV4Y3VHcmh3ZHk4"
+                            target="_blank">twitter-x</a></h4>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="home-btn">
+        <a href="#head1"><button>UP</button></a>
+    </div>
+
 </body>
+
 </html>
